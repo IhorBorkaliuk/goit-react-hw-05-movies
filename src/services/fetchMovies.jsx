@@ -8,6 +8,7 @@ export const fetchTrending = async () => {
     `${BASE_URL}/trending//movie/day?api_key=${API_KEY}`
   );
   return response;
+  
 };
 
 export const getSearchMovies = async ({ query = '', page = 1 }) => {

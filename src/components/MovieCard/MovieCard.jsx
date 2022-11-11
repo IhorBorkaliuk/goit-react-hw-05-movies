@@ -64,7 +64,7 @@ export default function MovieCard({ movie }) {
         <Link state={{ from }} to="cast">
           Cast
         </Link>
-        <Link state={{ from }} to="reiwers">
+        <Link state={{ from }} to="reviews">
           Reviews
         </Link>
       </WrapperLink>

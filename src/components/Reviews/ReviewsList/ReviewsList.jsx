@@ -1,7 +1,7 @@
 import { ReviewsItem } from "./ReviewsListStyled";
 
-export default function ReiwersList({ movieReiwers }) {
-  const results = movieReiwers.map(({ id, author, content }) => {
+export default function ReviewsList({ movieReviews }) {
+  const results = movieReviews.map(({ id, author, content }) => {
     return (
       <ReviewsItem key={id}>
         <h4>author: {author ? author : 'no_info'}</h4>
